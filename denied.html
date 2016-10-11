@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Forbidden Page</title>
+  </head>
+  <body>
+    <style>
+      body{
+        -webkit-animation: animate_bg 5s;
+        animation: animate_bg 5s;
+        -webkit-animation-iteration-count: infinite;
+        -animation-iteration-count: infinite;
+      }
+
+      @keyframes animate_bg{
+        0% {background:lime;}
+        25% {background:yellow;}
+        50% {background:magenta;}
+        75% {background:turquoise;}
+        100%{background:#00ccff;}
+      }
+
+      @-webkit-keyframes animate_bg{
+        0% {background:lime;}
+        25% {background:yellow;}
+        50% {background:magenta;}
+        75% {background:turquoise;}
+        100% {background: #00ccff;}
+      }
+
+    </style>
+    <h1>
+      The admin has blocked access to this page
+    </h1>
+    <p>
+      <sub>Deal with It.</sub>
+    </p>
+  </body>
+</html>
